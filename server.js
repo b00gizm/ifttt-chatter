@@ -4,6 +4,7 @@ var express  = require('express');
 var webhook  = require('express-ifttt-webhook');
 var socketio = require('socket.io');
 var moment   = require('moment');
+var lodash   = require('lodash');
 var uuid     = require('uuid');
 
 var app      = express();
@@ -21,7 +22,7 @@ app.use(webhook(function(json, done) {
   io.emit('message', {
     id       : uuid.v1(),
     nickname : json.username,
-    text     : JSON.stringify(json.description)
+    text     : lodash.isString(json.description) ? json.description : JSON.stringify(json.description)
   });
 
   done();
