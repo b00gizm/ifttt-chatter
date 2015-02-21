@@ -23,6 +23,15 @@ a {
   color: $link-color;
 }
 
+.no-messages {
+  text-align: center;
+  padding: 30px;
+
+  h2 {
+    color: #C5C3C6;
+  }
+}
+
 .chat-message {
   h3 {
     margin-bottom: 0px;
@@ -59,4 +68,12 @@ a {
 nav.footer {
   background-color: $font-color;
   color: $body-color;
+
+  a {
+    color: $body-color;
+  }
+
+  .footer-info {
+    margin-top: 15px;
+  }
 }
