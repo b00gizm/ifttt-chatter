@@ -1,0 +1,9 @@
+.sass-cache
+
+node_modules
+
+public/css/main.css
+public/javascripts/app.js
+
+!.gitkeep
+

@@ -1,0 +1,62 @@
+$body-color     : #EFEFEF;
+$headings-color : #1985A1;
+$link-color     : #1985A1;
+$font-color     : #46494C;
+$line-color     : #C5C3C6;
+
+body {
+  font-family: "Roboto", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: $font-color;
+  background-color: $body-color;
+  padding-top: 40px;
+  padding-bottom: 70px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: $headings-color;
+  font-weight: 400;
+}
+
+a {
+  color: $link-color;
+}
+
+.chat-message {
+  h3 {
+    margin-bottom: 0px;
+  }
+
+  hr {
+    margin-top: 0px;
+    border-top: 1px solid $line-color;
+  }
+
+  .chat-text {
+    padding-left: 30px;
+  }
+}
+
+.chat-message-enter {
+  opacity: 0.01;
+  transition: opacity .75s ease-in;
+}
+
+.chat-message-enter.chat-message-enter-active {
+  opacity: 1;
+}
+
+.chat-message-leave {
+  opacity: 1;
+  transition: opacity 0.75s ease-in;
+}
+
+.chat-message-leave.chat-message-leave-active {
+  opacity: 0.01;
+}
+
+nav.footer {
+  background-color: $font-color;
+  color: $body-color;
+}
