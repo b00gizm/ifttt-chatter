@@ -16,6 +16,10 @@
   ],
   "author": "Pascal Cremer <b00gizm@gmail.com> (http://codenugget.co)",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/npm/npm.git"
+  },
   "dependencies": {
     "browserify": "^9.0.3",
     "express": "^4.11.2",
