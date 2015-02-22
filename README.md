@@ -3,7 +3,7 @@ ifttt-chatter
 
 A sample app built with [express-ifttt-webhook](https://github.com/b00giZm/express-ifttt-webhook) to display text messages pushed to IFTTT in real time though web sockets.
 
-[https://ifttt-chatter.herokuapp.com/](https://ifttt-chatter.herokuapp.com/)
+See in action: [https://ifttt-chatter.herokuapp.com/](https://ifttt-chatter.herokuapp.com/)
 
 Installation
 ------------
@@ -38,8 +38,6 @@ and configure it like this:
 ### Ready to go!
 
 ![](http://i.imgur.com/Sbo0g5w.png)
-
-![](http://i.imgur.com/183QrEx.gifv)
 
 Made with
 ---------
