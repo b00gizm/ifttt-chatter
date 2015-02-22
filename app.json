@@ -1,0 +1,7 @@
+{
+  "name": "ifttt-chatter",
+  "description": "A simple chat example using express-ifttt-webhook",
+  "repository": "https://github.com/b00giZm/ifttt-chatter",
+  "logo": "https://node-js-sample.herokuapp.com/node.svg",
+  "keywords": ["node", "gulp", "ifttt", "webhook", "chat", "websockets", "react"]
+}
