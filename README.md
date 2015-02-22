@@ -39,7 +39,7 @@ and configure it like this:
 
 ![](http://i.imgur.com/Sbo0g5w.png)
 
-![](http://i.imgur.com/i1UvC6p.gif)
+![](http://i.imgur.com/183QrEx.gifv)
 
 Made with
 ---------
